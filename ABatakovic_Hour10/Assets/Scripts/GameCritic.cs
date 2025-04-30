@@ -18,7 +18,15 @@ Sugesstions Implemented:
 1) I created a goal for the chaos balls so that when all 5 chaos balls have entered the goal the light goes off and it is marked as solved. I included the chaos script in the game manger so 
 that when all four colored goals and the chaos goal is solved the game is won.
 
+2) I added some terrain to give the game a beach/island sort of feel. There's sandy hills covered in palm trees and some patchy grass areas. I changed the ground plane color to blue to make it
+feel like we are in the ocean or some sort of pool.
 
+3) I increased the player's walking speed and changed out one of the footstep sounds attached to the fps controller and replaced it with an audio of someone walking on water. I can't find a
+way to make the clip stop playing after I stop walking since it keeps going, but maybe if I were to come back to this project I would either find a shorter clip or edit the aduit and cut it
+short. There is also 2D island music attached to the game manager to provide a more fun and immersive experience.
 
+4) Finally I added some obstacles in the arena to make it harder for the player to move around. I added a rigid body to them and froze their position and disabled gravity and changed them
+to continuous dynamic, although the player can still sort of clip through the poles. They occasionally will slow down the ball which gives a bit of variety to the ball's speeds and could 
+make it easier (or maybe harder) to get them into the right goal.
 
 */
