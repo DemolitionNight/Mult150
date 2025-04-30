@@ -11,12 +11,13 @@ public class GameManager : MonoBehaviour
     }
 
     public GoalScript blue, green, red, orange;
+    public ChaosGoalScript chaos;
     private bool isGameOver = true;
     // Update is called once per frame
     void Update()
     {
         // If all four goals are solved then the game is over
-        isGameOver = blue.isSolved && green.isSolved && red.isSolved && orange.isSolved;
+        isGameOver = blue.isSolved && green.isSolved && red.isSolved && orange.isSolved && chaos.isSolved;
     }
 
     void OnGUI ()

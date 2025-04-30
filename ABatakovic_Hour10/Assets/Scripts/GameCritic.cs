@@ -15,7 +15,8 @@ when you can sucessfully redirect the ball into the goal and then youre like yea
 
 Sugesstions Implemented:
 
-
+1) I created a goal for the chaos balls so that when all 5 chaos balls have entered the goal the light goes off and it is marked as solved. I included the chaos script in the game manger so 
+that when all four colored goals and the chaos goal is solved the game is won.
 
 
 
