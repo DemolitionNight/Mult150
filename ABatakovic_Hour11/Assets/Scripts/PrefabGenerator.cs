@@ -9,7 +9,10 @@ public class PrefabGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        for (int i = 1; i < 10; i++)
+        {
+            Instantiate(prefab, new Vector3(-4f + i, -1f, -5f), Quaternion.identity);
+        }
     }
 
     // Update is called once per frame
