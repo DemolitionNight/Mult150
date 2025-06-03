@@ -1,7 +1,7 @@
 /*
  1) changed direction of directional light to make time time of day close to sunset but not quite set sunset.
  2) added some light fog with a blueish gray hue.
- 3)
+ 3) I added a skybox material. I made the sky a bit more blue and the ground a bit more orange to help with the sunset feel. I increased atmosphere thickness to 1.2, and lowered exposure to 1.
  4) Converted chaos ball into prefab and added a particle system component. 
  5) Changed shape to a sphere and used the stretched billboard under renderer to get a simmilar effect to our hazards in our gauntlet runner game. Decresed shape radius and radius thickness
     to .2. Decreased duration, start lifetime, and start size. Turned on size of lifetime module and make the particles go from big to small as they get older. 
@@ -14,11 +14,7 @@
  10) I organize the ladders under the pool top and the pool top under the wall. I added a metal material to the ladder and asphault texture to the pool top.
  
  other: My balls kept getting bunched up in a corner and slowed way down at the start of the game each time I played and I tried changing up the rotations and placements of the balls but it 
-        kept happened that they would get caught in one area and slowed down so the game kind of lost it'chaos element. tried getting rid of the rigid body on my obstacles to try and see what
-        difference it would make, but same thing kept happpening. I tried getting rid of the obstacles entirely but same thing happened where the balls would just hit a wall in a group and
-        get slowed down and lose their chaos (I made sure to turn the obstacle into a prefab so I can put it back in my scene if I want to). Then I added a bouncy physics material with no
+        kept happened that they would get caught in one area and slowed down so the game kind of lost it's chaos element. Tried getting rid of the rigid body on my obstacles to try and see 
+        what difference it would make, but same thing kept happpening. I tried getting rid of the obstacles entirely but same thing happened. Then I added a bouncy physics material with no
         friction to the walls and the balls and it helped bring the chaos back into the game!
- 
- 
- 
  */
